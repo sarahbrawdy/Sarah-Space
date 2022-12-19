@@ -1,0 +1,57 @@
+#hero {
+    height: 800px;
+    background-image: url(/images/first\ website\ hero\ white.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+#hero-content {
+    width: 900px;
+    background-color: rgba(249, 206, 238, 0.642);
+    box-shadow: 2px 4px 8px rgb(220, 184, 211);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#hero-content h1{
+    color: darkslategray;
+    font-family: "Cookie", sans-serif;
+    font-size: 50px;
+    margin: 0px;
+}
+
+#hero-content p{
+    color: darkslategray;
+    font-family: "catamaran", sans-serif;
+    font-size: 24px;
+    bottom: 32px;
+}
+
+#hero-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 60px;
+}
+
+#hero-list li{
+    list-style: none;
+    background-color: rgb(204, 243, 238);
+    box-shadow: rgb(79, 95, 93);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+hero-list a{
+    color: rgb(249, 243, 238);
+    text-decoration: none;
+}
